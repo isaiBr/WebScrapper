@@ -1,0 +1,80 @@
+[
+  {
+    "ContainingType": "WebScrapper.Controllers.WebScrapperController",
+    "Method": "BuscaProveedorOfac",
+    "RelativePath": "api/WebScrapper/ofac",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombreBusqueda",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebScrapper.Models.DataScrapped",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebScrapper.Controllers.WebScrapperController",
+    "Method": "BuscaProveedorOffShoreLeaks",
+    "RelativePath": "api/WebScrapper/offShore",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombreBusqueda",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebScrapper.Models.DataScrapped",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebScrapper.Controllers.WebScrapperController",
+    "Method": "BuscaProveedorWorldBank",
+    "RelativePath": "api/WebScrapper/worldBank",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombreBusqueda",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebScrapper.Models.DataScrapped",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
